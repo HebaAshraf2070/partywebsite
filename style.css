@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+
+/* 88888888888888888888888888888888888888 */
+
+
+.head {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+.side {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    white-space: nowrap;
+    z-index: 9999;
+
+}
+
+.sidedisappear {
+    width: 300px;
+    height: 100%;
+    display: none;
+}
+
+.setting {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    right: 100%;
+    top: 0%;
+
+}
+
+.closebtn {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    cursor: pointer;
+}
+
+/* 888888888888888888888888888888888888 */
+header {
+    height: 100dvh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(5, 5, 5)), url(pic/orange-party-wallpaper-preview.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.setting2 {
+    background-color: black;
+    top: 50%;
+    left: 0%;
+
+
+}
+
+.setting2 i {
+    position: absolute;
+    right: -15%;
+    top: 0%;
+    cursor: pointer;
+    background-color: black;
+    color: orangered;
+}
+
+.setting2 .p1 {
+    border-bottom: 2px solid white;
+}
+
+.insidesetting {
+    width: 300px;
+    height: 150px;
+    display: none;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* 8888888888888888888888888888888888888 */
+.singer {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.details {
+    background-color: rgb(255, 206, 188);
+
+}
+
+/* 8888888888888888888888888888888888888888 */
+
+.countdown {
+    height: 300px;
+}
+
+/* 8888888888888888888888888888888888888888 */
+.join h4,
+.join i {
+    color: orangered;
+}
+
+.sendbtn {
+    background-color: orangered;
+    color: white;
+}
+
+.sendbtn:hover,
+.sendbtn:active,
+.sendbtn:focus {
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.numcount {
+    color: orangered;
+}
+
+.error {
+    color: orangered;
+}
+
+/* 88888888888888888888888888888888888888888888888 */
